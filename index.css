@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app{
+    border: 5px solid;
+    min-height: 100vh;
+    background-color: #00ffff;
+
+    display: flex;
+    flex-direction: column;
+    /* full width */
+}
+nav{
+    flex-basis: 10vh;
+    /* height */
+    background-color: black;
+}
+.nav-content{
+    margin-left: auto;
+    margin-right: auto  ;
+    max-width: 1200px;
+    height: 100%;
+    background-color: #8f8f8f;
+}
+main{
+    border: 5px solid yellow;
+    flex-grow: 1;
+
+}
+.main-content{
+    border: 5px solid red;
+    margin-left: auto;
+    margin-right: auto  ;
+    max-width: 1200px;
+    height: 100vh;
+    background-color: #8f8f8f;
+}
